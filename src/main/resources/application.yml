@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: Flashboard-Admin-Service
+  data:
+    mongodb:
+      username: Fbadmin
+      password: 2K#report
+      database: fbadmin-db
+      port: 27017
+      host: 10.74.100.91
+
+token:
+  key: abcd0987654321qwertyuio
+  validity: 8640000000
+
+  
+  
